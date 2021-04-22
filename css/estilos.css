@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+html {
+     scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+h1{
+    color: red;
+    font-size: 34px;
+    text-align: center;
+}
+p{
+    font-style: italic;
+    font-size: 16px;
+}
+h2{
+    color: gray;
+    font-size: 24px;
+}
+h3{
+    color: red;
+    text-decoration: underline;
+}
+main{
+    padding: 0 4%;
+}
+.producto{
+    font-size: 16px;
+    background-color: #eee;
+    width: 300px;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.producto ul{
+   text-align: left; 
+}
+.producto:hover{
+    background-color: rgb(204, 196, 196)
+}
+.producto img{
+    height: 120px;
+}
+.producto span{
+    color: green;
+}
+.menu-footer{
+    text-align: center;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    text-decoration:underline;
+}
+input:focus, textarea:focus{
+    background-color: #eee;
+}
+nav{
+    display: block;
+    text-align: center;
+    background-color: red;
+    margin-bottom: 40px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0;
+}
+nav li {
+    display: inline;
+    padding: 0 40px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.video{
+    margin: 20px 0;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 20px;
+}
+form {
+    border: #eee 1px solid;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+form .form-control {
+    display: block;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 7px;
+    height: 25px;
+}
+form textarea{
+    height: 200px;
+}
+form div{
+    margin: 12px 0;
+}
+.botonera{
+    margin: auto;
+    width: max-content;
+}
+footer{
+    margin: auto;
+    width: max-content;
+}
+footer .redes {
+    margin: 30px 0 40px 0;
+}
+footer i{
+    font-size: 35px;
+    border: 1px solid;
+    height: 48px;
+    width: 58px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+    color: red;
+}
